@@ -1,0 +1,30 @@
+.header {
+  background: #ff7a00;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.header__logo a {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: white !important;
+}
+
+.header__nav a {
+  margin-left: 1.5rem;
+  color: white !important;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.header__nav a:hover {
+  color: #ffa144;
+}

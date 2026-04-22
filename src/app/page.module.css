@@ -1,0 +1,42 @@
+.hero {
+  position: relative;
+  z-index: 0;
+  height: 40vh;
+  min-height: 250px;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__content {
+  position: relative;
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.hero__content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero__content p {
+  font-size: 1.2rem;
+}
+
+.hero__button {
+  background: #ff7a00;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 999px;
+  display: inline-block;
+  margin-top: 1rem;
+  transition: 0.3s;
+}
+
+.hero__button:hover {
+  background: #e56d00;
+}
